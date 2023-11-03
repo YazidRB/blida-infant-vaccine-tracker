@@ -1,0 +1,152 @@
+/* Importing the Solway font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Solway:wght@300;400;500;700;800&display=swap');
+
+/* Start Global Variables  */
+:root {
+    /* Main Project Colors */
+    --Main-Color-Blue: #012B5D;
+    --Main-Color-yellow: #EDEDE3;
+    --Main-Color-Orange: #FE502D;
+    --Main-Color-White: #F1F1EE;
+
+    /* Fonts Sizes  */
+    --size-Extra-light: 200;
+    --size-Regular: 400;
+    --size-Bold: 700;
+    --size-Extra-Bold: 800;
+  }
+  /* End Global Variables  */
+
+  /* Start General  */
+  .html {
+    scroll-behavior: smooth;
+  }
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: var(--Main-Color-Blue);
+    line-height: 1;
+  }
+  
+  body {
+    font-family: "Solway", sans-serif;
+  }
+
+  .main-sec {
+    background-color: var(--Main-Color-yellow);
+    padding: 50px 100px 0px 100px ;
+    width: 100%;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header .logo {
+    font-weight: var(--size-Extra-Bold);
+    font-size: 2em;
+  }
+
+  .header .navigation {
+    display: flex;
+  }
+
+  .header .navigation a {
+    margin: 0px 0.5px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--Main-Color-Blue);
+    padding: 1em 5em;
+    float: right;
+    margin-bottom: 2em;
+
+
+
+  }
+
+  .main {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+
+  .main-title{
+    font-size: 4em;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .main-description {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
+  .main-register-btn a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    background-color: var(--Main-Color-Blue);
+    padding: 20px 30px;
+    width: 300px;
+    font-size: 23px;
+    border-radius: 13px;
+
+  }
+
+  .why-babyvac {
+    background-color: var(--Main-Color-White);
+
+  }
+
+  .why-babyvac .container{
+    width: 100%;
+
+    padding: 100px 50px;
+    height: 100vh; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .why-babyvac .container #left-img{
+    align-self: flex-start;
+
+  }
+
+  .why-babyvac .container #right-img{
+    align-self: flex-end;
+
+  }
+
+  .why-babyvac .container .description{
+    text-align: center;
+    margin: 0px 90px;
+  }
+
+  .why-babyvac .container .description h1 {
+    font-size: 3em;
+    font-weight: var(--size-Extra-Bold);
+    margin-bottom: 35px;
+  }
+
+  .why-babyvac .container .description p {
+    font-size: 1.5em;
+    color: black;
+
+  }
+
+  
+
+
